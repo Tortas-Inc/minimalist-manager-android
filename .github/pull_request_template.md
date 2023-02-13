@@ -22,15 +22,12 @@
     - [ ] Rotación
     - [ ] Falta de conexión
     - [ ] Manejo de errores
-- [ ] Publicar una version local de la lib y probar mis cambios integrados en la [app](https://github.com/mercadolibre/mobile-android).
+- [ ] Publicar una version local de la app y probar mis cambios.
 
 #### Opcionales
 
 - [ ] Arregla algún issue? [fixes #issue1]
-- [ ] Dependencias de otras libs: 
-    - [#prEnBackend]
-    - [#prEnLib]
-- [ ] Casos de regresión:
+- [ ] Dependencias de otras libs
 
 Caso de uso | Permanente? | Pasos | Caso esperado
 ---|---|---|---
