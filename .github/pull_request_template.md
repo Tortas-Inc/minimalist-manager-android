@@ -36,10 +36,7 @@ Caso de uso | Permanente? | Pasos | Caso esperado
 ---|---|---|---
 [Nombre del caso]|[Si/No]|[1. Codear <br> 2. Escribir los casos para la regresion]|[Que te aprueben el PR]
 
-## Tren
-Indicar [milestone](https://github.com/mercadolibre/mobile-android/milestones) en el que debe entrar el cambio.
+## Milestone
+Indicar [milestone](https://github.com/Tortas-Inc/minimalist-manager-android/milestones) en el que debe entrar el cambio.
 
 vx.y.z
-
-## What's new y Cambios visuales
-Cuando aplique completar los documentos que se encuentran en el [milestone](https://github.com/mercadolibre/mobile-android/milestones).
