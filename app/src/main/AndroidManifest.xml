@@ -11,8 +11,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".App"
         android:theme="@style/Theme.MinimalistManager"
         tools:targetApi="31">
+        <activity
+            android:name=".feature_onboarding.presentation.OnboardingActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
