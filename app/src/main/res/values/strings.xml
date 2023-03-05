@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Minimalist Manager</string>
+    <string name="onboarding_title_page_1">Remember\nYour Daily\nTasks</string>
+    <string name="onboarding_body_page_1">The app provide a platform where you don\'t need to remember you everyday tasks.</string>
+    <string name="onboarding_title_page_2">Track Your\nProgress</string>
+    <string name="onboarding_body_page_2">You can easily tack your daily progress and perform your tasks efficiently.</string>
+    <string name="onboarding_title_page_3">Get\nNotified\nInstantly</string>
+    <string name="onboarding_body_page_3">You get notifications of your tasks and track your daily work on this platform.</string>
 </resources>

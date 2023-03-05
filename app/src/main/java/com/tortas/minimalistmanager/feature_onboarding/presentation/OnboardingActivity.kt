@@ -5,6 +5,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.viewpager2.widget.ViewPager2
+import com.tortas.minimalistmanager.core.ext.performHapticFeedback
 import com.tortas.minimalistmanager.core.ext.setUpLightStatusBar
 import com.tortas.minimalistmanager.databinding.ActivityOnboardingBinding
 import com.tortas.minimalistmanager.feature_onboarding.domain.model.OnboardingData
@@ -37,6 +38,12 @@ class OnboardingActivity : AppCompatActivity() {
         viewPages.adapter = adapter
         viewPages.orientation = ViewPager2.ORIENTATION_HORIZONTAL
         circleIndicator.setViewPager(viewPages)
+
+        viewPages.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+            override fun onPageSelected(position: Int) {
+                root.performHapticFeedback()
+            }
+        })
     }
 
     private fun setUpOnClickListeners() = with(binding) {

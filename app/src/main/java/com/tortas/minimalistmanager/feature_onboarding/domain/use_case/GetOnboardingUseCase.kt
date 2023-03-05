@@ -16,18 +16,18 @@ class GetOnboardingUseCase {
         return listOf(
             OnboardingPage(
                 R.drawable.hand,
-                "Enjoy 20\nmillions songs\nIt's Ad free",
-                "This is a body text to test this component and see how it sees."
+                R.string.onboarding_title_page_1,
+                R.string.onboarding_body_page_1
             ),
             OnboardingPage(
                 R.drawable.hand,
-                "Enjoy 20\nmillions songs\nIt's Ad free",
-                "This is a body text to test this component and see how it sees."
+                R.string.onboarding_title_page_2,
+                R.string.onboarding_body_page_2
             ),
             OnboardingPage(
                 R.drawable.hand,
-                "Enjoy 20\nmillions songs\nIt's Ad free",
-                "This is a body text to test this component and see how it sees."
+                R.string.onboarding_title_page_3,
+                R.string.onboarding_body_page_3
             ),
         )
     }

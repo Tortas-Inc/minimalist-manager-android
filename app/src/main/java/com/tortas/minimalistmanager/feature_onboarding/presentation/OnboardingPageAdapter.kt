@@ -29,8 +29,8 @@ class OnboardingPageAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bindHolder(page: OnboardingPage) = with(binding) {
-            title.text = page.title
-            textViewBody.text = page.body
+            title.text = binding.root.context.getString(page.title)
+            textViewBody.text = binding.root.context.getString(page.body)
             imageView.setImageResource(page.image)
         }
 
